@@ -1,0 +1,47 @@
+.hoverText {
+  transition: 0.35s font-weight, 0.35s color;
+  font-family: Readex, sans-serif;
+}
+
+.hoverText:hover {
+  font-weight: 900;
+}
+
+.hoverText:hover + .hoverText {
+  font-weight: 500;
+}
+
+.hoverText:hover + .hoverText + .hoverText {
+  font-weight: 300;
+}
+
+.hoverText:has(+ .hoverText:hover) {
+  font-weight: 500;
+}
+
+.hoverText:has(+ .hoverText + .hoverText:hover) {
+  font-weight: 300;
+}
+
+.email:before {
+  @apply w-full h-[1px] bg-black dark:bg-white absolute right-0 bottom-0 duration-700 ease-out;
+  content: "";
+}
+.email:after {
+  @apply w-full h-[1px] bg-black dark:bg-white absolute -left-[230px] bottom-0 duration-700 ease-out;
+  content: "";
+}
+.email:hover:before {
+  @apply -right-[260px];
+}
+.email:hover:after {
+  @apply -left-0;
+}
+
+.route:before {
+  @apply w-0 hover:w-full h-[1px] bg-black dark:bg-white absolute left-0 bottom-0 duration-500 ease-out;
+  content: "";
+}
+/* .routes .route:before {
+  @apply w-full;
+} */

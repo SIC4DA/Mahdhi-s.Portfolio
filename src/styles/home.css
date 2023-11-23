@@ -1,0 +1,47 @@
+.email-btn:hover div {
+  top: 0;
+}
+.email-btn:hover p {
+  color: #fff;
+}
+.dark .email-btn:hover p {
+  color: #000;
+}
+
+.book-gradient {
+  /* background: linear-gradient(165deg, #909093 0%, #F7F7F7 29.17%, #FEFEFE 52.08%, #E8E8E9 75%, #909093 100%), #FFFFFF; */
+  background: linear-gradient(165deg, #5a568c, #93b7be, #f58f29, #ffd6ba);
+}
+
+.book-text-gradient {
+  background: -webkit-linear-gradient(165deg, #f58f29, #5a568c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.book-section-wrapper {
+  grid-template-columns: 1fr auto;
+}
+
+.theme-switcher:hover div {
+  visibility: visible;
+}
+
+.blogs-list:nth-child(2) {
+  margin-top: 80px;
+}
+
+@media (max-width: 1310px) {
+  .book-section-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1126px) {
+  .experience-list {
+    flex-direction: row;
+    justify-content: center;
+    /* gap: 10px !important; */
+    margin: 0px auto;
+  }
+}
