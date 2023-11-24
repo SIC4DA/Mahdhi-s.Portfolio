@@ -3,10 +3,12 @@ import { useTranslation } from "react-i18next";
 import "../../styles/nav.css";
 // import { IoArrowForwardOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom/dist";
 import ThemeSwitcher from "../../components/shared/ThemeSwitcher";
 
 const Navbar = () => {
   const { t } = useTranslation();
+  const { pathname } = useLocation();
 
   return (
     <header
@@ -24,13 +26,25 @@ const Navbar = () => {
             <IoArrowForwardOutline className="text-xl" />
           </Link> */}
           <div className="flex-center gap-3 text-lg tablet:text-base">
-            <Link className="route relative" to="/blogs">
+            <Link
+              className="route relative"
+              aria-current={pathname?.includes("/blogs") && "page"}
+              to="/blogs"
+            >
               {t("nav.blogs")},
             </Link>
-            <Link className="route relative" to="/about">
+            <Link
+              className="route relative"
+              aria-current={pathname?.includes("/about") && "page"}
+              to="/about"
+            >
               {t("nav.about")},
             </Link>
-            <Link className="route relative" to="/about">
+            <Link
+              className="route relative"
+              aria-current={pathname?.includes("/contact") && "page"}
+              to="/contact"
+            >
               {t("nav.contact")}
             </Link>
           </div>

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import Email from "./Email";
-import mabrouk from "../../assets/images/mabrouk.png";
+import mabrouk from "../../assets/images/mabrouk.webp";
 
 const Hero = () => {
   const { t } = useTranslation();

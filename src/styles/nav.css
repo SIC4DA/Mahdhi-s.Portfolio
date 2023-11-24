@@ -42,6 +42,9 @@
   @apply w-0 hover:w-full h-[1px] bg-black dark:bg-white absolute left-0 bottom-0 duration-500 ease-out;
   content: "";
 }
-/* .routes .route:before {
+/* .route[current="page"]:before {
   @apply w-full;
 } */
+.route[aria-current="page"]:before {
+  @apply w-full;
+}

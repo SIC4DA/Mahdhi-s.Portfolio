@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
-import bookCover from "../../assets/images/book.png";
+import bookCover from "../../assets/images/book.webp";
 
 const Book = () => {
   const ref = useRef(null);
