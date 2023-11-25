@@ -14,7 +14,7 @@ export const en = {
       home: "Home",
     },
     hero: {
-      role: "Sr.TECHNICAL CONSULTANT",
+      role: "Sr. Technical Consultant",
       description:
         "Through meticulous analysis and innovative solutions, I guide businesses in navigating the complex landscape of technology.",
     },

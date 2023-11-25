@@ -37,7 +37,7 @@ const BookInfo = () => {
         {t("work.bookDescription")}
       </p>
       <a
-        href="https://www.amazon.de/dp/B0CMC5MSR4?ref_=cm_sw_r_cp_ud_dp_8QR1SEX70ZWV9B297KKF"
+        href="https://amzn.eu/d/bZ3u2Bn"
         target="_blank"
         rel="noreferrer"
         className="flex-center gap-10 bg-background-dark dark:bg-background-light text-white dark:text-black px-4 py-2 rounded-full w-fit tablet:mx-auto"

@@ -11,7 +11,7 @@ export const de = {
       home: "Heim",
     },
     hero: {
-      role: "Technischer Berater",
+      role: "Sr. Technical Conultant",
       description:
         "Durch sorgfältige Analysen und innovative Lösungen begleite ich Unternehmen dabei, sich in der komplexen Technologielandschaft zurechtzufinden.",
     },

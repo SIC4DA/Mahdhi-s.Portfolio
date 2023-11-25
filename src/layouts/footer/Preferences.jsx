@@ -32,7 +32,7 @@ const Preferences = () => {
         </button>
       </div>
       <p className="text-grey dark:text-grey-light">
-        ©{currentYear} All Rights Reserved.
+        ©{currentYear} Mabrouk Mahdhi. All Rights Reserved.
       </p>
     </div>
   );
