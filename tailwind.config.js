@@ -15,6 +15,7 @@ export default {
         medium: "80rem",
       },
       colors: {
+        black: "#222222",
         primary: "#5a568c",
         secondary: "#35334e",
         gray: "#747572",
