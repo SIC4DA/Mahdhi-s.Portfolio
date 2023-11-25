@@ -1,0 +1,143 @@
+export const blogs = [
+  {
+    title:
+      "Abstracting Complexity: The Invisible Powerhouse of Software Engineering",
+    description:
+      "In the intricate realm of software engineering, abstraction emerges as an invisible powerhouse, a pivotal principle that engineers and developers employ to navigate the labyrinthine complexity of software systems. The essence of abstraction lies in its ability to distill the overwhelming intricacy of systems into more manageable, understandable components, allowing developers to focus on higher-level details and functionalities. This article delves deep into the concept of abstraction, exploring its multifaceted role and significance in software engineering.",
+    url: "https://mabroukmahdhi.medium.com/abstracting-complexity-the-invisible-powerhouse-of-software-engineering-9751418eb1b0",
+    image:
+      "https://miro.medium.com/v2/resize:fit:4800/format:webp/0*kZOyiNpibnQQtS7x",
+  },
+  {
+    title: "Common Mistakes C# Developers Make with Generic Types",
+    description:
+      "Let’s talk about a topic that I often see tripping up many developers, especially those relatively new to the C# world: generic types. If you’ve used C# for any length of time, you’ve probably used them or at least seen them. They look like this: List<T>, Dictionary<TKey, TValue>, and so on.",
+    url: "https://mabroukmahdhi.medium.com/common-mistakes-c-developers-make-with-generic-types-6bdc31e4e819",
+    image:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/1*1810yGtgBfo-9v_o8AjzUA@2x.jpeg",
+  },
+  {
+    title:
+      "The Art of Writing User Stories: A Comprehensive Guide for Software Engineers",
+    description:
+      "Today, we’re embarking on a delightful journey through the world of user stories, those magical snippets that breathe life into our creations and bring us closer to the hearts of our users.",
+    url: "https://mabroukmahdhi.medium.com/the-art-of-writing-user-stories-a-comprehensive-guide-for-software-engineers-8efbcba19839",
+    image:
+      "https://miro.medium.com/v2/resize:fit:640/format:webp/0*Itryn7hP-zWm0nJF",
+  },
+  {
+    title: "5 Big Mistakes C# Developers Often Make in Their Code",
+    description:
+      "As C# continues to evolve, offering more features and tools for developers, it’s essential to reflect on common pitfalls and areas where we can improve. Here are five mistakes C# developers often make, along with tips to avoid them.",
+    url: "https://mabroukmahdhi.medium.com/5-big-mistakes-c-developers-often-make-in-their-code-c317a0d07011",
+    image:
+      "https://miro.medium.com/v2/resize:fit:640/format:webp/0*fIdKDNRIgeVItoxp",
+  },
+  {
+    title:
+      "From DevOps to AI-ops: How Artificial Intelligence is Transforming Deployment and Monitoring",
+    description:
+      "In the past decade, DevOps has become a household term in the software engineering world. The practice emphasizes collaboration between software developers and IT operations with the objective to automate the process of software delivery and infrastructure changes. However, as our systems grow increasingly complex, we find ourselves asking: can we do better? Enter AI-ops, the next evolutionary step, which leverages Artificial Intelligence (AI) to improve upon traditional DevOps practices.",
+    url: "https://mabroukmahdhi.medium.com/from-devops-to-ai-ops-how-artificial-intelligence-is-transforming-deployment-and-monitoring-638e327714",
+    image:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/0*lNfV4hwPw59XfQeS.png",
+  },
+  {
+    title: "Write Code for Humans, Not for Machines!",
+    description:
+      "Once upon a time, in the land of ones and zeroes, lived code — the invisible threads that power our apps, websites, and software. But there’s a secret about code. It’s not just for computers. It’s for us, humans, too.",
+    url: "https://mabroukmahdhi.medium.com/write-code-for-humans-not-for-machines-f0d234d5e1f6",
+    image:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/1*07V3S12w_JRYfMApuv-L_Q@2x.jpeg",
+  },
+  {
+    title: "Am I a Junior or Senior Software Engineer?",
+    description:
+      "Navigating the landscape of software engineering titles can feel like traversing through a labyrinth. The vast array of titles may leave one pondering, “Senior Software Engineer, Junior? What am I?” In the technological domain, job titles frequently blur the lines between seniority and experience, often leaving individuals in a conundrum. Let’s unpack the essence behind the roles and the dichotomy between a Senior Software Engineer and a Junior Software Engineer.",
+    url: "https://mabroukmahdhi.medium.com/am-i-a-junior-or-senior-software-engineer-4ea3e08a9fa3",
+    image:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xW09lkKb1dnXgoaGFfBtmQ@2x.jpeg",
+  },
+  {
+    title: "What’s Cooking in .NET 8? Spoiler: It’s Not Mom’s Spaghetti!",
+    description:
+      "If you’ve been waiting to see what’s next in the world of .NET, your wait is over. .NET 8 is here, and it’s more than just a regular update; it’s like your reliable old toolbox but with some new, cutting-edge tools added. And trust me, these tools aren’t just shiny; they’re practical, thoughtful, and designed to make your life as a developer easier and more secure.",
+    url: "https://mabroukmahdhi.medium.com/whats-cooking-in-net-8-spoiler-it-s-not-mom-s-spaghetti-1751a44aaae6",
+    image:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/0*sxnLq9Bg90uPOOuH",
+  },
+  {
+    title:
+      "The Multilingual Software Engineer: Why “Bonjour, World” Beats Just “Hello, World”",
+    description:
+      "“Hello, World!” Ah, the sweet, comforting phrase that has held the hands of novice coders as they took their first trembling steps into the world of software engineering. But have you ever paused to wonder, what if it was “Hallo, Welt!” or “Bonjour, Monde!” instead? Would the world come crumbling down? Nein, non, absolutely not!",
+    url: "https://mabroukmahdhi.medium.com/the-multilingual-software-engineer-why-bonjour-world-beats-just-hello-world-efcd4ed85817",
+    image:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/0*sFRiAML_vhQkWd8z.png",
+  },
+  {
+    title: "Let’s make C# code complexer !",
+    description:
+      "Guten Tag, C# people! Ever felt that your code was too einfach (simple)? Fret not! Let’s embark on a journey to make your code a tad bit more kompliziert (complicated) than it needs to be. Why? Well, because we can.",
+    url: "https://mabroukmahdhi.medium.com/lets-make-c-code-complexer-9b09f7e2673a",
+    image:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/1*z3dBwIsjdMb-jYhGydJNnA@2x.jpeg",
+  },
+  {
+    title:
+      "“The Standard” by Hassan Habib: A Dive into Modern Software Architecture Principles",
+    description:
+      "In an era where software is not just a utility but a necessity, the architecture and design of software systems have become increasingly important. Hassan Habib’s “The Standard” aims to provide a comprehensive set of guidelines for developing software systems that are maintainable, scalable, and robust. This article aims to unpack the essentials of “The Standard” and why it could be a game-changer in software engineering.",
+    url: "https://mabroukmahdhi.medium.com/the-standard-by-hassan-habib-a-dive-into-modern-software-architecture-principles-84ee92395a9c",
+    image:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/0*J1kKuA4qPht1WOjV",
+  },
+  {
+    title: "What Are We Doing Wrong with Logging in C#?",
+    description:
+      "Logging is a bit like the unsung hero of software development. When done right, it silently provides us with a window into the operations of our software, helping us catch issues, debug errors, and understand user behaviors. But what happens when logging isn’t done quite right? It can quickly turn from a useful tool into a maze of confusing data or, worse, a gaping hole where information should be.",
+    url: "https://mabroukmahdhi.medium.com/what-we-are-doing-wrong-with-logging-in-c-798dd7a4ec6d",
+    image:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/1*YQn8IH4f7ByhlJNjm0V-Ow@2x.jpeg",
+  },
+  {
+    title: "The Art of Readable Code: How to Write Code That Speaks",
+    description:
+      "Readable code is like a well-written book — it communicates ideas clearly, can be understood by others, and is a pleasure to read. Writing code that is easily understandable by others (and our future selves) is essential, as it is fundamental to effective collaboration and the long-term maintainability of software. In an environment where software is continuously evolving and teams are regularly changing, having readable code can save time, reduce bugs, and enhance the quality of software products.",
+    url: "https://mabroukmahdhi.medium.com/the-art-of-readable-code-how-to-write-code-that-speaks-3e0f1675356e",
+    image:
+      "https://miro.medium.com/v2/resize:fit:640/format:webp/0*hixT5Yn4V2c9uWdT",
+  },
+  {
+    title: "The 7 Qualities of a Great Software Engineer",
+    description:
+      "Ever wonder why some apps work smoothly while others crash and burn? Or why some tech companies are giants and others are, well, not so giant? A lot of it comes down to the people behind the computer screens — the software engineers.",
+    url: "https://mabroukmahdhi.medium.com/the-7-qualities-of-a-great-software-engineer-fb3222ae4e94",
+    image:
+      "https://miro.medium.com/v2/resize:fit:640/format:webp/0*lLHRRqE1ICDy3a84",
+  },
+  {
+    title: "Reflection in C#: A Guide to Using and Avoiding",
+    description:
+      "In the realm of programming, the ability to analyze and modify your own code during runtime is nothing short of magical. In C#, this magic is achieved through a feature known as “Reflection.” However, as intriguing as it may seem, reflection is like a double-edged sword — powerful yet risky. This post aims to explore what reflection is, when it should be used, and the pitfalls you should be cautious of.",
+    url: "https://mabroukmahdhi.medium.com/reflection-in-c-a-guide-to-using-and-avoiding-6b8e2f76bc83",
+    image:
+      "https://miro.medium.com/v2/resize:fit:640/format:webp/0*1D1GsUau5_WUJ8b0",
+  },
+  {
+    title: "Hmmm Task or ValueTask?",
+    description:
+      "As a software engineer working in the world of C#, I often find myself faced with the decision of whether to use Task or ValueTask when designing asynchronous code. Both of these types are essential in modern C# development, but choosing the right one for your specific scenario can be a nuanced decision. In this blog post, we'll dive into the differences between Task and ValueTask, explore their use cases, and help you make informed choices when designing asynchronous workflows in your C# applications.",
+    url: "https://medium.com/@mabroukmahdhi/hmmm-task-or-valuetask-c0d682098dd2",
+    image:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/1*ABx9bvzDtWHEzkQCy_x4Ug@2x.jpeg",
+  },
+  {
+    title: "Write Your Unit Tests Better!",
+    description:
+      "Unit testing is a crucial aspect of software development, as it helps to ensure that each part of your code works as expected. However, some common pitfalls can hinder the effectiveness of your tests. In this post, we will discuss two of these pitfalls and provide tips on how to avoid them.",
+    url: "https://mabroukmahdhi.medium.com/write-your-unit-tests-better-7d561cd4ba43",
+    image:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/1*txCyfCJ9K4V-8OciZop6vQ@2x.jpeg",
+  },
+];
