@@ -31,6 +31,7 @@ const AboutMe = () => {
           src={cover}
           alt="mabrouk cover"
           className="w-full h-full object-cover"
+          loading="lazy"
         />
       </div>
     </div>

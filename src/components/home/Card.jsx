@@ -1,8 +1,4 @@
-// import { useTranslation } from "react-i18next";
-
 const Card = ({ card }) => {
-  // const { t } = useTranslation(); h-[250px]
-
   return (
     <div
       dir="ltr"
