@@ -38,7 +38,7 @@ const Hero = () => {
             </motion.h1>
           </div>
         </div>
-        <div className="h-[96px] mid:h-[60px] tablet:h-[40px] mobile:h-[32px] w-full overflow-hidden relative mobile:text-[1.3rem]">
+        <div className="h-[96px] mid:h-[60px] tablet:h-[40px] mobile:h-[32px] w-full overflow-hidden relative">
           <motion.h2
             initial={{ top: 96 }}
             animate={{ top: 0 }}
