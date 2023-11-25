@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 
 const BlogsSection = () => {
   const { t } = useTranslation();
+  
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const controls = useAnimation();

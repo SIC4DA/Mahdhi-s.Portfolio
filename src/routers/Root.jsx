@@ -9,6 +9,8 @@ import { de } from "../assets/locales/de.js";
 import { Toaster } from "react-hot-toast";
 import { globalToasterOptions } from "../utils/customToaster";
 import Blogs from "../pages/Blogs.jsx";
+import About from "../pages/About.jsx";
+import Contact from "../pages/Contact.jsx";
 
 const routers = [
   {
@@ -17,6 +19,8 @@ const routers = [
     children: [
       { path: "/", element: <Home /> },
       { path: "/blogs", element: <Blogs /> },
+      { path: "/about", element: <About /> },
+      { path: "/contact", element: <Contact /> },
     ],
   },
 ];

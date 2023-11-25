@@ -1,11 +1,11 @@
-import blogs from "../../data/blogs.json";
 import Card from "../home/Card";
 import { useMemo } from "react";
 import { motion } from "framer-motion";
 
-const BlogsList = () => {
+const BlogsList = ({ blogs }) => {
   const blogsHalf = useMemo(
     () =>
+      blogs &&
       blogs?.reduce(
         (acc, cur, i) => {
           if (i % 2 === 0) {
@@ -36,9 +36,8 @@ const BlogsList = () => {
           transition={{ duration: 0.3, delay: 0.3, ease: "easeOut" }}
           className="flex flex-col gap-6"
         >
-          {blogsHalf[0]?.map((blog, i) => (
-            <Card key={i} card={blog} />
-          ))}
+          {blogs &&
+            blogsHalf[0]?.map((blog, i) => <Card key={i} card={blog} />)}
         </motion.div>
         <motion.div
           initial={{ y: 200, opacity: 0 }}
@@ -46,9 +45,8 @@ const BlogsList = () => {
           transition={{ duration: 0.3, delay: 0.4, ease: "easeOut" }}
           className="flex flex-col gap-6 mt-24"
         >
-          {blogsHalf[1]?.map((blog, i) => (
-            <Card key={i} card={blog} />
-          ))}
+          {blogs &&
+            blogsHalf[1]?.map((blog, i) => <Card key={i} card={blog} />)}
         </motion.div>
       </div>
     </div>

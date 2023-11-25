@@ -6,7 +6,7 @@ const Card = ({ card }) => {
   return (
     <div
       dir="ltr"
-      className="w-[385px] tablet:w-[310px]  rounded-xl overflow-hidden border border-border-light dark:border-border-dark select-none flex flex-col justify-between"
+      className="w-[385px] tablet:w-[310px] rounded-xl overflow-hidden border border-border-light dark:border-border-dark select-none flex flex-col justify-between"
     >
       <a href={card.url} target="_blank" rel="noreferrer">
         <div className="h-[14em] w-full overflow-hidden rounded-b-xl">
