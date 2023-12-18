@@ -6,10 +6,10 @@ const Header = () => {
 
   return (
     <div
-      style={{
-        height: "calc(100vh - 200px)",
-      }}
-      className="pt-40 sticky top-[75px] mid:!h-fit mid:pt-0 mid:static"
+      // style={{
+      //   height: "calc(100vh - 200px)",
+      // }}
+      className="pt-10 mid:!h-fit mid:pt-0"
     >
       <motion.h1
         initial={{ y: 20, opacity: 0 }}

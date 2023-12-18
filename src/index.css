@@ -43,3 +43,20 @@ body {
 .flex-between {
   @apply flex justify-between items-center;
 }
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  cursor: grab;
+  background: #dfdddb;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #8c8c8c;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #dfdddb;
+}

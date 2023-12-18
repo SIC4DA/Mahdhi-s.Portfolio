@@ -23,9 +23,9 @@
   grid-template-columns: 1fr auto;
 }
 
-.theme-switcher:hover div {
+/* .theme-switcher:hover div {
   visibility: visible;
-}
+} */
 
 .blogs-list:nth-child(2) {
   margin-top: 80px;

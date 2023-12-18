@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import mabrouk_first from "../../assets/images/mabrouk2.webp";
+// import mabrouk_first from "../../assets/images/mabrouk2.webp";
 
 const WorkSection = ({ controls }) => {
   const { t } = useTranslation();
@@ -8,7 +8,7 @@ const WorkSection = ({ controls }) => {
   return (
     <>
       {" "}
-      <div className="w-fit max-w-3xl leading-relaxed">
+      <div className="w-fit leading-relaxed">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           variants={{ visible: { opacity: 1, y: 0 } }}
@@ -38,22 +38,6 @@ const WorkSection = ({ controls }) => {
             {t(`about.career.${index + 1}`)}
           </motion.p>
         ))}
-      </div>
-      <div className="w-[400px] aspect-square tablet:w-[300px] mobile:w-full mobile:max-h-[500px]">
-        <motion.img
-          initial={{ opacity: 0, y: 40 }}
-          variants={{ visible: { opacity: 1, y: 0 } }}
-          animate={controls}
-          transition={{
-            duration: 0.5,
-            delay: 0.3,
-            ease: "easeInOut",
-          }}
-          src={mabrouk_first}
-          className="object-cover mobile:object-top w-full h-full "
-          loading="lazy"
-          alt="mabrouk"
-        />
       </div>
     </>
   );

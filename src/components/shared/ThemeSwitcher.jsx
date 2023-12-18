@@ -23,10 +23,10 @@ const ThemeSwitcher = () => {
       style={{
         backgroundColor: isDarkMode ? "#f8f8f8" : "#030712",
       }}
-      className="p-[2px] hover:p-2 aspect-square  hover:scale-105 duration-300 active:scale-95 theme-switcher rounded-full"
+      className="p-1 hover:p-2 aspect-square  hover:scale-105 duration-300 active:scale-95 theme-switcher rounded-full"
       onClick={swapTheme}
     >
-      <div className="invisible duration-300">
+      <div className=" duration-300">
         {isDarkMode ? (
           <TbSunHigh className="text-xl text-white dark:text-black" />
         ) : (

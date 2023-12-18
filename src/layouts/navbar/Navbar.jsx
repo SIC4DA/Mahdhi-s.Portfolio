@@ -26,13 +26,13 @@ const Navbar = () => {
             <IoArrowForwardOutline className="text-xl" />
           </Link> */}
           <div className="flex-center gap-3 text-lg tablet:text-base">
-            {/* <Link
+            <Link
               className="route relative"
-              aria-current={pathname?.includes("blogs") && "page"}
+              aria-current={!pathname.split("/")[1] && "page"}
               to="/"
             >
               {t("nav.home")},
-            </Link> */}
+            </Link>
             <Link
               className="route relative"
               aria-current={pathname?.includes("/blogs") && "page"}

@@ -21,20 +21,20 @@ const BlogsList = ({ blogs }) => {
   );
 
   return (
-    <div className="py-40 mid:pt-0 mid:pb-10">
+    <div className="pb-40 mid:pt-0 mid:pb-10">
       <div
         style={{
           gridAutoColumns: "1fr",
           gridTemplateColumns: "1fr 1fr",
           gridTemplateRows: "auto auto",
         }}
-        className="grid gap-6 mid:w-fit mid:mx-auto mobile:!grid-cols-1"
+        className="grid gap-6  mid:w-fit mid:mx-auto mobile:!grid-cols-1"
       >
         <motion.div
           initial={{ y: 200, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.3, delay: 0.3, ease: "easeOut" }}
-          className="flex flex-col gap-6"
+          className="flex flex-col gap-6 items-center"
         >
           {blogs &&
             blogsHalf[0]?.map((blog, i) => <Card key={i} card={blog} />)}
@@ -43,7 +43,7 @@ const BlogsList = ({ blogs }) => {
           initial={{ y: 200, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.3, delay: 0.4, ease: "easeOut" }}
-          className="flex flex-col gap-6 mt-24"
+          className="flex flex-col gap-6 items-center"
         >
           {blogs &&
             blogsHalf[1]?.map((blog, i) => <Card key={i} card={blog} />)}

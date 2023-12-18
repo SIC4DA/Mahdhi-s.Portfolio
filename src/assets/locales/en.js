@@ -23,7 +23,7 @@ export const en = {
       discover: "Discover more",
       myBook: "Laughing at Null",
       bookHeader: {
-        1: "Laughing at Null, A Humorous Guide To",
+        1: "Laughing at Null: A Humorous Guide To",
         2: "Software Life.",
       },
       bookDescription:
@@ -57,6 +57,7 @@ export const en = {
     about: {
       learnAbout: "Learn about me",
       myCareer: "career",
+      aboutMe: "about me",
       myPersonal: "personal",
       careerHeader: "myself and my career",
       personalHeader: "my personality",

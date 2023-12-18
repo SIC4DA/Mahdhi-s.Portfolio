@@ -29,14 +29,11 @@ const SectionWrapper = ({ children, isWork }) => {
           transition={{ duration: 0.5, delay: 0.3, ease: "easeInOut" }}
           className="bg-background-light dark:bg-background-dark absolute top-1/2 -translate-y-1/2 p-3 text-sm font-bold capitalize"
         >
-          {isWork ? t("about.myCareer") : t("about.myPersonal")}
+          {isWork ? t("about.aboutMe") : t("about.myPersonal")}
         </motion.span>
         <span className="absolute -bottom-44" ref={ref} />
       </div>
-      <div
-        
-        className="w-full flex justify-between gap-10 mt-10 mobile:flex-col mobile:gap-5 mobile:items-center"
-      >
+      <div className="w-full flex justify-between gap-10 mt-10 mobile:flex-col mobile:gap-5 mobile:items-center">
         {React.cloneElement(children, { controls })}
       </div>
     </div>

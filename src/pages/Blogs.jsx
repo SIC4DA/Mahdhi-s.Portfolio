@@ -9,7 +9,7 @@ export default function Blogs() {
 
   return (
     <section>
-      <div className="flex items-stretch mid:flex-col justify-between relative pt-20 pb-16 px-5 mx-auto max-w-[90rem] gap-16">
+      <div className="flex items-stretch flex-col justify-between relative pt-20 pb-16 px-5 mx-auto max-w-[90rem] gap-16">
         <Header />
         {blogs?.length > 0 && !isLoading && <BlogsList blogs={blogs} />}
         {(isLoading || isError) && (

@@ -1,14 +1,14 @@
-import { useTranslation } from "react-i18next";
-import { MdArrowForward } from "react-icons/md";
+// import { useTranslation } from "react-i18next";
+// import { MdArrowForward } from "react-icons/md";
 import Socials from "./Socials";
 import Preferences from "./Preferences";
 
 const Footer = () => {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
   return (
     <footer className="bg-background-dark dark:bg-background-light text-background-light dark:text-background-dark">
-      <div className="p-10 py-20">
+      {/* <div className="p-10 py-20">
         <p className="uppercase text-xl mobile:text-lg mobile:text-center text-grey dark:text-grey-light mb-10">
           {t("footer.idea")}
         </p>
@@ -22,7 +22,7 @@ const Footer = () => {
             <MdArrowForward />
           </div>
         </a>
-      </div>
+      </div> */}
       <div className="bg-grey dark:bg-grey-light h-[1px]" />
       <div className="p-10 pt-16 flex flex-col gap-10 mobile:justify-center">
         <Socials />
